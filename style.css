@@ -18,7 +18,8 @@ img {
 }
 
 .sidebar {
-    display: 
+    background-color: grey;
+    display: inline-block;
 }
 
 .skills {
