@@ -18,8 +18,12 @@ img {
 }
 
 .sidebar {
-    background-color: grey;
+    background-color: steelblue;
     display: inline-block;
+}
+
+.topBar {
+    height: 60px;
 }
 
 .skills {
