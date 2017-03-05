@@ -7,5 +7,8 @@ app.config(function($routeProvider) {
   .when('/skills', {
       templateUrl: 'partials/skills.html',
   })
+  ./when('/projects', {
+      templateUrl: 'partials/projects.html'
+  })
 
 })

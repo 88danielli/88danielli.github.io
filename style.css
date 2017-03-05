@@ -14,6 +14,11 @@ img {
 
 .header {
     background-color: grey;
+    display: inline-block;
+}
+
+.sidebar {
+    display: 
 }
 
 .skills {
