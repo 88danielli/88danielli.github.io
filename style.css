@@ -1,0 +1,34 @@
+body {
+    padding: 10px;
+}
+div {
+    padding: 10px;
+}
+h3 {
+    color: pink;
+}
+
+img {
+    height: 250px;
+}
+
+.header {
+    background-color: grey;
+}
+
+.skills {
+    background-color: green;
+    color: white;
+}
+
+.projects {
+    background-color: aqua;
+}
+
+.education {
+    background-color: red;
+}
+
+.footer {
+    background-color: orange;
+}

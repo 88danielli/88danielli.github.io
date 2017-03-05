@@ -4,8 +4,21 @@
         <meta charset="utf-8">
         <title>Daniel Li | Full Stack Software Engineer</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="angular/angular.min.js"></script>
+        <script src="angular-route/angular-route.min.js"></script>
+        <script src="portfolio.js" charset="utf-8"></script>
     </head>
-    <body>
-        <h1>Hello World from Daniel!</h1>
+    <body ng-app="app">
+        <div class="container-fluid header">
+            <div class="col-sm-3">
+                <img src="./images/picture.jpg" class="img-circle" alt="pic1">
+            </div>
+            <div ng-view="">
+
+            </div>
+        </div>
+
+
     </body>
 </html>
