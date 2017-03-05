@@ -22,10 +22,6 @@ img {
     display: inline-block;
 }
 
-.topBar {
-    height: 60px;
-}
-
 .skills {
     background-color: green;
     color: white;
