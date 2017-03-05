@@ -4,5 +4,8 @@ app.config(function($routeProvider) {
   .when('/', {
     templateUrl: 'partials/landingPage.html',
   })
+  .when('/skills', {
+      templateUrl: 'partials/skills.html',
+  })
 
 })
