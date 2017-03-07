@@ -8,8 +8,12 @@ h3 {
     color: pink;
 }
 
-img {
+.sidebar img {
     height: 120px;
+}
+
+.panel-default img {
+    width: 300px;
 }
 
 .header {
