@@ -13,7 +13,8 @@ h3 {
 }
 
 .panel-default img {
-    width: 470px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .header {
