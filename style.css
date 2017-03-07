@@ -24,6 +24,7 @@ h3 {
 
 .row {
     min-width: 100%;
+    margin: 0;
 }
 
 .sidebar {
