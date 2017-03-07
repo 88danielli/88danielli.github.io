@@ -27,29 +27,34 @@
 
     </head>
     <body ng-app="app">
-        <div class="container header">
-            <div class="col-sm-4 sidebar">
-                <a href="#!/"><img src="./images/picture.jpg" class="img-circle" alt="pic1"></a>
-                <p><a href="#!/skills">My Skills</a></p>
-                <p><a href="#!/projects">Projects</a></p>
-                <p><a href="#!/resume">Resume</a></p>
-                <p><a href="#!/about_me">About Me</a></p>
+        <!-- add a div with class container -->
+        <!-- change the existing containers to rows, change the existing col-sm to col-md -->
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-4 sidebar">
+                    <a href="#!/"><img src="./images/picture.jpg" class="img-circle" alt="pic1"></a>
+                    <p><a href="#!/skills">My Skills</a></p>
+                    <p><a href="#!/projects">Projects</a></p>
+                    <p><a href="#!/resume">Resume</a></p>
+                    <p><a href="#!/about_me">About Me</a></p>
 
 
 
-                <p><a href="https://www.linkedin.com/in/88danielli">Linked In</a></p>
-                <p><a href="https://github.com/88danielli">Github</a></p>
+                    <p><a href="https://www.linkedin.com/in/88danielli">Linked In</a></p>
+                    <p><a href="https://github.com/88danielli">Github</a></p>
+
+                </div>
+                <div class="col-md-8" ng-view="">
+
+                </div>
 
             </div>
-            <div class="col-sm-8" ng-view="">
+            <div class="row footer">
+                Location: Sunnyvale, CA | Phone: 650.799.9948 | email: 88danielli@gmail.com
 
             </div>
-
         </div>
-        <div class="container-fluid footer">
-            Location: Sunnyvale, CA | Phone: 650.799.9948 | email: 88danielli@gmail.com
 
-        </div>
 
 
     </body>
