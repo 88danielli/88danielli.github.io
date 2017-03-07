@@ -1,22 +1,46 @@
 <h4>Projects:</h4>
 
-<label for="chrimata">Chrimata - An investment management application that compiles data from several APIs based on a client's portfolio to help educate the public on cryotocurrencies</label>
-<ul name="chrimata">
-    <li>Built in Python with SQLiteDB</li>
-    <li>Responsible for developing Django MVC Framework</li>
-    <li>Created models and SQL queries using Django ORM</li>
-    <li>Established API calls, parsing JSON data</li>
-    <li>Supported front-end UI design using Bootstrap</li>
-    <li>Deployed on AWS</li>
+<uib-accordion close=other="oneAtATime">
+    <div uib-accordion-group class="panel-default" heading="Check out my projects!">Open the accordion below to check out some of my projects
 
-</ul>
+    </div>
+    <div uib-accordion-group class="panel-default" is-open="status.isCustomHeaderOpen" template-url="group-template.html">
+      <uib-accordion-heading>
+        Chrimata <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.isCustomHeaderOpen, 'glyphicon-chevron-right': !status.isCustomHeaderOpen}"></i>
+      </uib-accordion-heading>
+      <ul name="chrimata">
+          <li>Built in Python with SQLiteDB</li>
+          <li>Responsible for developing Django MVC Framework</li>
+          <li>Created models and SQL queries using Django ORM</li>
+          <li>Established API calls, parsing JSON data</li>
+          <li>Supported front-end UI design using Bootstrap</li>
+          <li>Deployed on AWS</li>
+
+      </ul>
+    </div>
+    <div uib-accordion-group class="panel-default" is-open="status.open">
+      <uib-accordion-heading>
+        I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+      This is just some content to illustrate fancy headings.
+    </div>
+    <div uib-accordion-group class="panel-default" is-open="status.open">
+      <uib-accordion-heading>
+        I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+      This is just some content to illustrate fancy headings.
+    </div>
+  </uib-accordion>
+
+<label for="chrimata"><a href="http://54.159.197.106/">Chrimata</a> - An investment management application that compiles data from several APIs based on a client's portfolio to help educate the public on cryptocurrencies</label>
+
 
 <label for="calink"><a href="http://52.38.133.182">Calink</a> - A database of California Tattoo Artists.  Artists are assigned various style tags that are searchable, to provide a resource for connecting tattoo enthusiasts to active tattoo artists</label>
 <ul name ="calink">
     <li>Built in Javascript using Full Mean Stack</li>
     <li>End to end ownership and development of application</li>
     <li>Complete content curation, chose to use a NoSQL database created in MongoDB using Mongoose</li>
-    <li>Developed RESTful API</li>
+    <li>Designed and implemented RESTful API</li>
     <li>Front-end designed in Angular as well as an iOS mobile front-end</li>
     <li>Deployed on AWS</li>
 </ul>

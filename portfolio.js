@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute']);
+var app = angular.module('app', ['ngRoute', 'ngAnimate', 'ui.bootstrap']);
 app.config(function($routeProvider) {
   $routeProvider
   .when('/', {
@@ -8,7 +8,8 @@ app.config(function($routeProvider) {
       templateUrl: './partials/skills.html',
   })
   .when('/projects', {
-      templateUrl: './partials/projects.html'
+      templateUrl: './partials/projects.html',
+      controller: 'projectsController'
   })
   .when('/resume', {
       templateUrl: './partials/resume.html'
