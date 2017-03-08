@@ -8,6 +8,11 @@ h3 {
     color: pink;
 }
 
+.background {
+    background-image: url('../images/bike_left.jpg');
+    background-size: cover;
+}
+
 .panel-default img {
     width: 100%;
     margin-bottom: 10px;
@@ -24,7 +29,7 @@ h3 {
 }
 
 .sidebar {
-    background-color: steelblue;
+    background-color: rgba(186,198,216,.5);
     display: inline-block;
     min-height: 680px;
     text-align: center;
@@ -42,8 +47,7 @@ h3 {
 }
 
 .landingPage {
-    background-image: url('../images/bike_left.jpg');
-    background-size: cover;
+
     min-height: 680px;
 }
 .skills {
@@ -60,6 +64,6 @@ h3 {
 }
 
 .footer {
-    background-color: orange;
+    background-color: rgba(120,128,140,.5);
     text-align: right;
 }
