@@ -27,7 +27,6 @@ td {
 }
 
 .panel-default img {
-    margin-bottom: 10px;
     display: block;
     margin: auto;
 }
@@ -77,6 +76,10 @@ td {
 .projects {
     background-color: rgb(232,232,232);
     min-height: 680px;
+}
+
+.projects img {
+    margin-bottom: 15px;
 }
 
 .resume {
