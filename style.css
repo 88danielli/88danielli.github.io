@@ -51,18 +51,22 @@ h3 {
 }
 .skills {
     background-color: white;
+    min-height: 680px;
 }
 
 .projects {
     background-color: white;
+    min-height: 680px;
 }
 
 .resume {
     background-color: white;
+    min-height: 680px;
 }
 
 .aboutMe {
     background-color: white;
+    min-height: 680px;
 }
 
 .footer {
