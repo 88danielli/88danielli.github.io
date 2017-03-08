@@ -12,6 +12,15 @@ h5 {
     color: rgb(62,66,73);
 }
 
+table {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    min-width: 160px;
+}
+
 .background {
     background-image: url('../images/bike_left.jpg');
     background-size: cover;
