@@ -73,5 +73,5 @@ h3 {
 .footer {
     background-color: rgba(120,128,140,.5);
     text-align: right;
-    padding: 0px;
+    padding: 10px 0px 10px 0px;
 }
