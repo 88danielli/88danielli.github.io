@@ -28,6 +28,8 @@ td {
 
 .panel-default img {
     margin-bottom: 10px;
+    display: block;
+    margin: auto;
 }
 
 .header {
