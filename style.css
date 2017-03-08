@@ -35,6 +35,10 @@ h3 {
     margin-bottom: 50px;
 }
 
+.partials {
+    min-height: 680px;
+}
+
 .landingPage {
     background-image: url('../images/bike_left.jpg');
     background-size: cover;
