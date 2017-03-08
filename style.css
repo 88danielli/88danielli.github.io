@@ -19,7 +19,6 @@ h3 {
 }
 
 .header {
-    background-color: grey;
     display: inline-block;
 }
 
@@ -51,16 +50,19 @@ h3 {
     min-height: 680px;
 }
 .skills {
-    background-color: green;
-    color: white;
+    background-color: white;
 }
 
 .projects {
-    background-color: aqua;
+    background-color: white;
 }
 
-.education {
-    background-color: red;
+.resume {
+    background-color: white;
+}
+
+.aboutMe {
+    background-color: white;
 }
 
 .footer {
