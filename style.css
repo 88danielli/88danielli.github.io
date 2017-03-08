@@ -32,6 +32,10 @@ h3 {
     display: inline-block;
 }
 
+.landingPage {
+    background-image: url('../images/skydiving.png');
+    background-size: contain;
+}
 .skills {
     background-color: green;
     color: white;
